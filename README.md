@@ -1,2 +1,2 @@
 # statesandcapitals
-This is done using Javascript
+This is done using Javascript internally.
