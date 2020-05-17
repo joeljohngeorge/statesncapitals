@@ -1,5 +1,12 @@
-<html> <head> <title> Using Javascript </title>
-<script language="Javascript">
+<html> 
+ <style>
+   h2
+   {text-align:center;}
+   body{
+     background-color:grey;} 
+  </style>
+    <head> <title> States and Capitals </title>
+<script>
 function capital()
 {var i,ans;
 i=document.frm.States.selectedIndex;
@@ -64,8 +71,8 @@ break;
 document.frm.t1.value=ans;
 }
 </script> </head>
-<body bgcolor="gray"> <form name="frm">
-<h2 align="center"> Indian states and their capitals </h2>
+<body> <form name="frm">
+<h2> Indian states and their capitals </h2>
 <select Name="States" size=1>
 <option name="Andhra Pradesh" >Andhra Pradesh
  <option name="Arunachal Pradesh">Arunachal Pradesh
